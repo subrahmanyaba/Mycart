@@ -1,0 +1,34 @@
+{% extends 'shop/basic.html' %}
+
+{%block title%} {{product.product_name}} - Pedro cart {%endblock%}
+
+{%block body%}
+
+<div class = "container">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="row">
+                <!-- <img src="/media/{{product.image}}" width="233px" height="385px">  -->
+                <img src="/media/{{product.image}}" class = "rounded mx-auto my-auto d-block" width="233px" height="385px"> 
+            </div>
+        </div> 
+        
+        <div class="col-md-8">
+            <h5>{{product.product_name}}</h5>
+            <p>{{product.desc}}</p>
+            <p>CATEGORY: {{product.category}}</p>
+            <p>SUBCATEGORY: {{product.subcategory}}</p>
+            <p>Rs. {{product.price}}</p>
+            <p>Released on: {{product.pub_date}}</p>
+        </div>\
+        
+    </div>
+
+</div>
+
+
+
+
+
+{%endblock%}
