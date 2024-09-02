@@ -1,0 +1,97 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+*.pdb
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.VENV/
+env.bak/
+env_old/
+.env/
+.Python
+
+# Django migrations
+*/migrations/
+*/migrations/*.pyc
+
+# Static and media files (if you have a different storage strategy)
+staticfiles/
+media/
+
+# Local development settings
+settings_local.py
+.env
+
+# VS Code (or other editor) specific files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Test / cache / temp files
+*.log
+*.dat
+*.sql
+*.sqlite3
+*.pdb
+*.pot
+*.seed
+*.pid
+*.pyo
+*.pyc
+*.pyd
+*.tmp
+*.out
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.swp
+*.bak
+*.swo
+*.db-journal
+*.coverage
+
+# Other project-specific stuff
+*.egg
+*.egg-info
+dist/
+build/
+*.bak
+*.swp
+
+# System files
+.DS_Store
